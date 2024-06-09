@@ -1,0 +1,26 @@
+body {
+  background-color: #73c8a9;
+  font-family: "Press Start 2P", cursive;
+  background-image: linear-gradient(to right, #73c8a9, #373b44);
+}
+
+canvas {
+  border: 5px solid #2e2e2e;
+  border-radius: 10px;
+  display: block;
+  margin: 50px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-image: url(Flappy_Bird_Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* we will make the end menu overlap the game canvas, so we need a lower value of z-index here*/
+  z-index: 1;
+}
+
+#end-menu {
+  display: block;
+  margin: 50px auto;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+}
